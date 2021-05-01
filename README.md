@@ -29,10 +29,24 @@ confusion matrix is:
 ![a](Resources/RandomOverSampler.png)
 
 ### SMOTE
+The accuracy is 64.83%
+
+confusion matrix is:
+[   57,    30]
+
+[ 6139, 10979]
+
 ![b](Resources/SMOTE.png)
 
 ### ClusterCentroids
+The accuracy is 58.51%
+
+confusion matrix is:
+[  52,   35]
+
+[7318, 9800]
 ![c](Resources/Undersampling.png)
+
 
 ### SMOTEENN
 ![d](Resources/Combination.png)
