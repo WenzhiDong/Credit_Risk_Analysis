@@ -23,6 +23,7 @@ The accuracy is 64.42%
 confusion matrix is:
 
 [  54,    33]
+
 [5689, 11429]
 
 ![a](Resources/RandomOverSampler.png)
