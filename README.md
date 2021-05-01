@@ -71,6 +71,24 @@ confusion matrix is:
 
 ### BalancedRandomForestClassifier
 ![e](Resources/Forest.png)
+
+The accuracy is 78.78%.
+
+The confusion matrix is:
+
+[   58,    29]
+
+[ 1560, 15558]
+
 ### EasyEnsembleClassifier
 ![f](Resources/AdaBoost.png)
+
+The accuracy is 91.98%.
+
+The confusion matrix is:
+
+[   78,     9]
+
+[  975, 16143]
+       
 ## Summary
