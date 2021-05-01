@@ -17,7 +17,7 @@ I will evaluate the performance of these models.
 
 ## Results
 
-### RandomOverSampler
+### RandomOverSampler (Logistic Regression)
 
 
 ![a](Resources/RandomOverSampler.png)
@@ -31,7 +31,7 @@ confusion matrix is:
 [5689, 11429]
 
 
-### SMOTE
+### SMOTE (Logistic Regression)
 
 
 ![b](Resources/SMOTE.png)
@@ -44,7 +44,7 @@ confusion matrix is:
 
 [ 6139, 10979]
 
-### ClusterCentroids
+### ClusterCentroids (Logistic Regression)
 
 ![c](Resources/Undersampling.png)
 The accuracy is 58.51%.
@@ -57,7 +57,7 @@ confusion matrix is:
 
 
 
-### SMOTEENN
+### SMOTEENN (Logistic Regression)
 ![d](Resources/Combination.png)
 
 The accuracy is 62.99%.
@@ -92,3 +92,10 @@ The confusion matrix is:
 [  975, 16143]
        
 ## Summary
+
+Among the four logistic regression, oversample methods(RandomOverSampler and SMOTE) return highest accuracy. The results of these two are close (64.4% vs 64.8%).
+
+Among two machine learning algorithms, EasyEnsembleClassifier gives better accuracy(92%).
+
+Overall, machine learning algorithms give much higher accurac. In this type of problem,  EasyEnsembleClassifier is recommended.
+
