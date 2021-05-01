@@ -18,6 +18,12 @@ I will evaluate the performance of these models.
 ## Results
 
 ### RandomOverSampler
+The accuracy is 64.42%
+
+confusion matrix is:
+
+[  54,    33]
+[5689, 11429]
 
 ![a](Resources/RandomOverSampler.png)
 
@@ -28,7 +34,8 @@ I will evaluate the performance of these models.
 ![c](Resources/Undersampling.png)
 
 ### SMOTEENN
-![d](Resources/Combination..png)
+![d](Resources/Combination.png)
+
 ### BalancedRandomForestClassifier
 ![e](Resources/Forest.png)
 ### EasyEnsembleClassifier
