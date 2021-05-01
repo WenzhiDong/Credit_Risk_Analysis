@@ -18,7 +18,11 @@ I will evaluate the performance of these models.
 ## Results
 
 ### RandomOverSampler
-The accuracy is 64.42%
+
+
+![a](Resources/RandomOverSampler.png)
+
+The accuracy is 64.42%.
 
 confusion matrix is:
 
@@ -26,30 +30,44 @@ confusion matrix is:
 
 [5689, 11429]
 
-![a](Resources/RandomOverSampler.png)
 
 ### SMOTE
-The accuracy is 64.83%
+
+
+![b](Resources/SMOTE.png)
+
+The accuracy is 64.83%.
 
 confusion matrix is:
+
 [   57,    30]
 
 [ 6139, 10979]
 
-![b](Resources/SMOTE.png)
-
 ### ClusterCentroids
-The accuracy is 58.51%
+
+![c](Resources/Undersampling.png)
+The accuracy is 58.51%.
 
 confusion matrix is:
+
 [  52,   35]
 
 [7318, 9800]
-![c](Resources/Undersampling.png)
+
 
 
 ### SMOTEENN
 ![d](Resources/Combination.png)
+
+The accuracy is 62.99%.
+
+
+confusion matrix is:
+
+[  62,   25]
+
+[7751, 9367]
 
 ### BalancedRandomForestClassifier
 ![e](Resources/Forest.png)
