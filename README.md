@@ -32,5 +32,5 @@ I will evaluate the performance of these models.
 ### BalancedRandomForestClassifier
 ![e](Resources/Forest.png)
 ### EasyEnsembleClassifier
-![f](AdaBoost.png)
+![f](Resources/AdaBoost.png)
 ## Summary
