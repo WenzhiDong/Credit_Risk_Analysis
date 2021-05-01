@@ -19,15 +19,18 @@ I will evaluate the performance of these models.
 
 ### RandomOverSampler
 
-![a](resources/RandomOverSampler.png)
+![a](Resources/RandomOverSampler.png)
+
 ### SMOTE
+![b](Resources/SMOTE.png)
 
 ### ClusterCentroids
+![c](Resources/Undersampling.png)
 
 ### SMOTEENN
-
+![d](Resources/Combination..png)
 ### BalancedRandomForestClassifier
-
+![e](Resources/Forest.png)
 ### EasyEnsembleClassifier
-
+![f](AdaBoost.png)
 ## Summary
